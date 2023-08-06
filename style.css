@@ -130,11 +130,10 @@ button:hover {
 
 #circle-container {
   z-index: 3;
-
   display: flex;
   justify-content: center;
   margin-top: 2em;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
 }
 
 .circle {
