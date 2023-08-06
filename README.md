@@ -9,3 +9,5 @@ How to use it:
 3. Clicking any of the colored circles will copy that color as a HEX code to your clipboard. Paste it in wherever you need it for further use.
 4. You can create up to 5 colors.
 5. After the 5th color made, the button will change its function to reset the circles for a new session of color-grabbing.
+
+Have fun!
