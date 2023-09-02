@@ -69,11 +69,11 @@ timeLine.fromTo(".title", { opacity: 0 }, { opacity: 1 });
 
 // Mouse color change
 let mouseDown = false;
-let toucstart = false; // For touch
+let touchstart = false; // For touch
 let rgb = [];
 window.addEventListener("mousedown", () => (mouseDown = true));
 window.addEventListener("mouseup", () => (mouseDown = false));
-window.addEventListener("touchstart", () => (toucstart = true)); // For touch
+window.addEventListener("touchstart", () => (touchstart = true)); // For touch
 window.addEventListener("touchend", () => (touchstart = false)); // For touch
 window.addEventListener("mousemove", (event) => {
   if (mouseDown) {
