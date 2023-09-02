@@ -9,12 +9,14 @@ body {
 
 body,
 html {
+  background-color: black;
   overflow-x: hidden;
+  overflow: hidden;
 }
 
 .webgl {
   position: absolute;
-  top: 0;
+  top: 80px;
   left: 0;
   z-index: 1;
 }
