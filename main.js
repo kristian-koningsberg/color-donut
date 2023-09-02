@@ -69,11 +69,26 @@ timeLine.fromTo(".title", { opacity: 0 }, { opacity: 1 });
 
 // Mouse color change
 let mouseDown = false;
+let toucstart = false; // For touch
 let rgb = [];
 window.addEventListener("mousedown", () => (mouseDown = true));
 window.addEventListener("mouseup", () => (mouseDown = false));
+window.addEventListener("touchstart", () => (toucstart = true)); // For touch
+window.addEventListener("touchend", () => (touchstart = false)); // For touch
 window.addEventListener("mousemove", (event) => {
   if (mouseDown) {
+    rgb = [
+      Math.round((event.pageX / sizes.width) * 255),
+      Math.round((event.pageY / sizes.height) * 255),
+      150,
+    ];
+    const newColor = new THREE.Color(`rgb(${rgb.join(",")})`);
+    mesh.material.color.copy(newColor);
+  }
+});
+// For touch
+window.addEventListener("touchmove", (event) => {
+  if (touchstart) {
     rgb = [
       Math.round((event.pageX / sizes.width) * 255),
       Math.round((event.pageY / sizes.height) * 255),
