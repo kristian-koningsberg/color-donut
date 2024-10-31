@@ -1,4 +1,4 @@
-# COLOR DONUT - the HEX Generator Tool - html, css, js, three.js
+# COLOR DONUT - the HEX Generator Tool - html, css, js, three.js (vite)
 
 This is an original app that lets you create colors by rotating the donut and then grab them for use. It is made with html, css, js and three.js.
 
