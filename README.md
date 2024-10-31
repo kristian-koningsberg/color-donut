@@ -16,4 +16,4 @@ Process and thoughts:
 
 This was my very first project exploring three.js.
 I have some experience from 3D in blender and that is the main reason why i am also learning three.js now. It is alot of fun, but also hard.
-It is challenging to get the delicate syntax correct and also the logic behind how to get things to move etc. Also this was one of my first times using canvas which was a treat.
+It is challenging to get the delicate syntax correct and also the logic behind how to get things to move etc.
